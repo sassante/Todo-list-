@@ -1,0 +1,85 @@
+body {
+    background-image: url('images/Beach-Koh-Chang-Tajland-Desktop-Wallpaper-HD-3840x2400%201.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#container {
+    height: 70vh;
+    width: 90%; /* Adjusted width for better responsiveness */
+    max-width: 500px; /* Set a maximum width for larger screens */
+    padding: 5%; /* Adjusted padding for better responsiveness */
+    margin: 20px auto; /* Center the container horizontally and adjust top margin */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(131, 128, 128, 0.3);
+    border-radius: 20px;
+    min-height: 650px;
+}
+
+/* Add a media query for larger screens */
+@media only screen and (min-width: 768px) {
+    #container {
+        width: 60%; /* Adjusted width for larger screens */
+    }
+}
+
+h1 {
+    align-self: center;
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#borders {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px; /* Adjusted margin between h1 and the boxes */
+}
+
+/* Add a media query for larger screens */
+@media only screen and (min-width: 768px) {
+    #borders {
+        margin-top: 40px; /* Adjusted margin for larger screens */
+    }
+}
+
+#notes {
+    display: flex;
+}
+.task-text {
+    padding-right: 10px; /* Adjust the value to your desired spacing */
+    display: inline-block; /* Ensures the padding applies properly */
+}
+
+.delete-icon {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Todo List</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link reltylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Todo List</h1>
+        <div id="borders">
+            <div class="border border-1">
+                <input type="text" id="newTaskInput" placeholder="Add your task"> 
+            </div>
+            <div class="border border-2"></div>
+            <div class="border border-3"><button onclick="addTask()">Add</button></div>
+        </div>
+
+        <table id="notes">
+            <tr class="note-item">
+                <td><input type="checkbox" class="task-checkbox" onclick="toggleCompleted(this)"></td>
+                <td><p>Review notes<span class="delete-icon" onclick="deleteTask(this)">&#128465;</span></p></td>
+            </tr>
+
+            <tr class="note-item">
+                <td><input type="checkbox" class="task-checkbox" onclick="toggleCompleted(this)"></td>
+                <td><p>Complete assignments<span class="delete-icon" onclick="deleteTask(this)">&#128465;</span></p></td>
+            </tr>
+
+            <tr class="note-item">
+                <td><input type="checkbox" class="task-checkbox" onclick="toggleCompleted(this)"></td>
+                <td><p>Study for exams<span class="delete-icon" onclick="deleteTask(this)">&#128465;</span></p></td>
+            </tr>
+
+            <tr class="note-item">
+                <td><input type="checkbox" class="task-checkbox" onclick="toggleCompleted(this)"></td>
+                <td><p>Read assigned materials<span class="delete-icon" onclick="deleteTask(this)">&#128465;</span></p></td>
+            </tr>
+
+            <tr class="note-item">
+                <td><input type="checkbox" class="task-checkbox" onclick="toggleCompleted(this)"></td>
+                <td><p>Research for papers<span class="delete-icon" onclick="deleteTask(this)">&#128465;</span></p></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
