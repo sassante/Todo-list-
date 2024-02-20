@@ -1,31 +1,30 @@
-  Simple ToDo List
-This is a simple ToDo list application created for managing tasks. It allows users to add tasks, delete tasks, and cancel tasks.
+# Simple Todo List
 
-Features
-Add Tasks: Users can add tasks to the ToDo list.
-Delete Tasks: Users can remove tasks from the ToDo list.
-Cancel Tasks: Users can mark tasks as canceled.
-Limit on Tasks: Up to 8 tasks can be added to the list at a time.
-Usage
-Adding Tasks: To add a task, simply input the task details and select the add option.
-Deleting Tasks: To delete a task, select the task you wish to remove from the list.
-Canceling Tasks: To cancel a task, mark it as canceled.
-Getting Started
-To use this ToDo list application, follow these steps:
+Welcome to Simple Todo List! This is a basic todo list application with limited features designed to help you manage your tasks efficiently.
 
-Clone the repository:
+## Features
 
-bash
-Copy code
-git clone https://github.com/sassante/todo-list.git
-Open the project in your preferred code editor.
+- **Add Task**: You can add tasks to your todo list. The application supports adding up to 8 tasks at a time.
+- **Delete Task**: You can delete tasks from your todo list.
+- **Cancel Task**: You can cancel tasks if you decide not to complete them.
 
-Run the application.
+## How to Use
 
-Start managing your tasks!
+1. Clone this repository to your local machine.
+2. Open the terminal and navigate to the directory where you cloned the repository.
+3. Run the application by executing the following command:
+4. Follow the on-screen instructions to add, delete, or cancel tasks.
 
-Contribution
-Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or create a pull request.
+## Limitations
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- The application currently supports a maximum of 8 tasks. You cannot add more than 8 tasks at a time.
+- Deleting or canceling a task will remove it permanently from the list.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
