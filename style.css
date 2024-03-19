@@ -29,7 +29,7 @@ body {
     min-height: 650px;
 }
 
-/* Add a media query for larger screens */
+
 @media only screen and (min-width: 768px) {
     #container {
         width: 60%; 
@@ -54,7 +54,7 @@ h1 {
     margin-top: 20px; 
 }
 
-/* Add a media query for larger screens */
+
 @media only screen and (min-width: 768px) {
     #borders {
         margin-top: 40px; 
