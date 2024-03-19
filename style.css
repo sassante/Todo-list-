@@ -1,5 +1,5 @@
 body {
-    background-image: url('images/Beach-Koh-Chang-Tajland-Desktop-Wallpaper-HD-3840x2400%201.jpg');
+    background-image: url('Beach-Koh-Chang-Tajland-Desktop-Wallpaper-HD-3840x2400%201.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,10 +15,10 @@ body {
 
 #container {
     height: 70vh;
-    width: 90%; /* Adjusted width for better responsiveness */
-    max-width: 500px; /* Set a maximum width for larger screens */
-    padding: 5%; /* Adjusted padding for better responsiveness */
-    margin: 20px auto; /* Center the container horizontally and adjust top margin */
+    width: 90%;
+    max-width: 500px; 
+    padding: 5%; 
+    margin: 20px auto; 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -32,7 +32,7 @@ body {
 /* Add a media query for larger screens */
 @media only screen and (min-width: 768px) {
     #container {
-        width: 60%; /* Adjusted width for larger screens */
+        width: 60%; 
     }
 }
 
@@ -51,13 +51,13 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 20px; /* Adjusted margin between h1 and the boxes */
+    margin-top: 20px; 
 }
 
 /* Add a media query for larger screens */
 @media only screen and (min-width: 768px) {
     #borders {
-        margin-top: 40px; /* Adjusted margin for larger screens */
+        margin-top: 40px; 
     }
 }
 
@@ -65,8 +65,8 @@ h1 {
     display: flex;
 }
 .task-text {
-    padding-right: 10px; /* Adjust the value to your desired spacing */
-    display: inline-block; /* Ensures the padding applies properly */
+    padding-right: 10px; 
+    display: inline-block; 
 }
 
 .delete-icon {
