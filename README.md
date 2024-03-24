@@ -1,4 +1,4 @@
-                                                      # Simple Todo List
+# Simple Todo List
 Welcome to Simple Todo List! This is a basic todo list application with limited features designed to help you manage your tasks efficiently.
 
 ## Features
