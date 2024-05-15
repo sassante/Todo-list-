@@ -1,4 +1,3 @@
-
 function addTask() {
     var taskInput = document.getElementById("newTaskInput").value;
     if (taskInput !== "") {
