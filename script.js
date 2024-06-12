@@ -3,7 +3,7 @@ function addTask() {
     if (taskInput !== "") {
         var notesTable = document.getElementById("notes");
 
-        var newRow = notesTable.insertRow(-1); // Insert at the last row
+        var newRow = notesTable.insertRow(-1); 
         var cell1 = newRow.insertCell(0);
         var cell2 = newRow.insertCell(1);
 
