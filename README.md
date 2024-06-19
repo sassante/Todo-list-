@@ -2,9 +2,9 @@
 Welcome to Simple Todo List! This is a basic todo list application with limited features designed to help you manage your tasks efficiently.
 
 ## Features
--  1. Add Task : You can add tasks to your todo list. The application supports adding up to 8 tasks at a time.
--  2. Delete Task : You can delete tasks from your todo list.
--  3. Cancel Task : You can cancel tasks if you decide not to complete them.
+-   Add Task : You can add tasks to your todo list. The application supports adding up to 8 tasks at a time.
+-   Delete Task : You can delete tasks from your todo list.
+-   Cancel Task : You can cancel tasks if you decide not to complete them.
 
 ## Limitations
 - The application currently supports a maximum of 8 tasks. You cannot add more than 8 tasks at a time.
