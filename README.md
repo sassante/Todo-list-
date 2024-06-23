@@ -11,10 +11,10 @@ Welcome to Simple Todo List! This is a basic todo list application with limited 
 - Deleting or canceling a task will remove it permanently from the list.
 
 ## How to Use
-1. Clone this repository to your local machine.
-2. Open the terminal and navigate to the directory where you cloned the repository.
-3. Run the application by executing the following command:
-4. Follow the on-screen instructions to add, delete, or cancel tasks.
+- Clone this repository to your local machine.
+- Open the terminal and navigate to the directory where you cloned the repository.
+- Run the application by executing the following command:
+- Follow the on-screen instructions to add, delete, or cancel tasks.
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
